@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(2, 2, 6);
+  color: whitesmoke;
+  overflow-x: hidden;
+}
+nav li {
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 99px;
+  background-color: rgb(17, 17, 54);
+  color: bisque;
+}
+
+nav ul {
+  display: flex;
+
+  gap: 26px;
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+}
+.right {
+  font-size: 2.1rem;
+}
+.right:hover {
+}
+a:hover {
+  color: rgb(14, 255, 118);
+  font-size: 1.04rem;
+}
+#first {
+  display: flex;
+  justify-content: space-around;
+  height: 627px;
+}
+.right1 {
+  width: 30%;
+}
+.left1 {
+  width: 30%;
+  font-size: 3rem;
+  margin-top: 102px;
+  margin-left: 203px;
+}
+img {
+  width: 438px;
+  margin-top: 112px;
+  margin-left: -13px;
+
+  transition: 0.9s;
+  filter: hue-rotate(587deg);
+}
+
+.red {
+  color: rgb(123, 0, 255);
+}
+#element {
+  color: rgb(123, 0, 255);
+}
+.hi {
+  color: rgb(123, 0, 255);
+}
+.hello {
+  color: rgb(123, 0, 255);
+}
+#second {
+  width: max-content;
+  margin-left: 247px;
+
+  height: 730px;
+  margin-top: 55px;
+}
+hr {
+  border: 0;
+  background: rgb(132, 0, 255);
+  height: 2px;
+}
+.hero {
+  color: gray;
+  font-size: 1.4rem;
+}
+.vertical {
+  width: 974px;
+  margin-top: 64px;
+}
+.flex {
+  justify-content: space-around;
+  display: flex;
+  height: 170px;
+  height: 170px;
+}
+.horizontal1 {
+  background-color: rgb(121, 121, 234);
+
+  width: 1px;
+}
+.horizontal2 {
+  background-color: rgb(121, 121, 234);
+
+  width: 1px;
+}
+.horizontal3 {
+  background-color: rgb(121, 121, 234);
+
+  width: 1px;
+}
+.horizontal4 {
+  background-color: rgb(121, 121, 234);
+
+  width: 1px;
+}
+.box {
+  margin-left: -93px;
+  padding-bottom: 39px;
+  font-size: 1.9rem;
+  color: rgb(161, 113, 205);
+}
+h4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 171px;
+}
+p {
+  margin-top: 40px;
+  margin-right: -140px;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.what {
+  color: rgb(108, 44, 168);
+}
+.blue {
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 31px;
+  background-color: rgb(162, 107, 214);
+  color: wheat;
+}
+.green {
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: rgb(162, 107, 214);
+  color: wheat;
+}
+.let {
+  color: rgb(97, 22, 177);
+}
+.green {
+  border: 2px solid transparent;
+}
+.green:hover {
+  font-size: 1.3rem;
+  border: 2px solid rgb(14, 255, 118);
+  border-radius: 3.6px;
+}
+.blue {
+  border: 2px solid transparent;
+}
+.blue:hover {
+  font-size: 1.3rem;
+  border: 2px solid rgb(14, 255, 118);
+  border-radius: 3.6px;
+}
+
+h4 {
+  color: rgb(107, 36, 172);
+}
+.sub {
+  position: relative;
+  line-height: 24px;
+  left: 707px;
+  bottom: 33px;
+  color: rgba(136, 8, 255, 0.527);
+}
+.sub .cool ul li a {
+  color: rgb(132, 0, 255);
+}
+
+.line {
+  height: 1px;
+  width: 100%;
+  border: 0;
+  background-color: rgb(106, 0, 255);
+}
+.line2 {
+  height: 1px;
+  width: 100%;
+  border: 0;
+  background-color: rgb(162, 0, 255);
+}
+footer {
+  height: 276;
+}
+.icons {
+  position: relative;
+  bottom: 120px;
+  right: 156px;
+  letter-spacing: 13px;
+  gap: 17px;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  /* align-items: center; */
+  font-size: 1.5rem;
+  gap: 6px;
+  margin-right: 13px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+.final:hover {
+  color: aquamarine;
+}
+.final {
+  color: blueviolet;
+}
+input {
+  font-size: 18px;
+  margin-left: 106px;
+}
+button {
+  font-size: 16px;
+  background-color: rgb(44, 44, 245);
+  color: aliceblue;
+  border: 2px solid blueviolet;
+  border-radius: 2px solid;
+}
+.grey {
+  font-size: 26px;
+  color: gray;
+  margin-left: 38px;
+}
+.i1 {
+  position: relative;
+  left: 55px;
+}
+
+.diff {
+  font-size: 2.1rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -32px;
+  position: relative;
+  bottom: 41px;
+}
+.graph {
+  position: relative;
+  bottom: 34px;
+  font-size: 12px;
+  color: rgb(113, 98, 127);
+}
+.cod {
+  position: relative;
+  right: 51px;
+}
+.sub.cool ul li a:hover {
+  color: purple;
+}
